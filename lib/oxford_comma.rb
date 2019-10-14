@@ -10,7 +10,7 @@ def oxford_comma(array)
   else
    while count < array.size
     if(count == array.size - 1)
-      string << array[count] << ", "
+      string << "and" << array[count] << ", "
     else
     
    end
