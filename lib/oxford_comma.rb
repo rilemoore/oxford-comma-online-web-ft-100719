@@ -4,10 +4,17 @@ def oxford_comma(array)
     return array[0]
   end
   
-  for each do |characters|
+  if(array.size == 2)
     
+      return array.join(" and ")
+  else
+   while count < array.size
+    if(count == array.size - 1)
+      string << array[count] << ", "
+    else
+    
+   end
   end
-  string = array.join
   array.join(" and ")
   
 end
