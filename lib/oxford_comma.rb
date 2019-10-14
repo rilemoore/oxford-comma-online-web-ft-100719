@@ -3,6 +3,10 @@ def oxford_comma(array)
   if(array.size == 1)
     return array[0]
   end
+  
+  for each do |characters|
+    
+  end
   string = array.join
   array.join(" and ")
   
