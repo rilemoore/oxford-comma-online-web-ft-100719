@@ -16,6 +16,7 @@ def oxford_comma(array)
     else
       string << array[count] << ", "
     end
+    count += 1
    end
   end
   return string
